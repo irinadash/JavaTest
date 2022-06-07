@@ -1,15 +1,13 @@
 package hw7;
 
-public class Emplyee {
+public class Employee {
 
     private double baseSalary;
     private String name;
-    private  double salary;
 
-    public Emplyee(double baseSalary, String name, double salary) {
+    public Employee(double baseSalary, String name) {
         this.baseSalary = baseSalary;
         this.name = name;
-        this.salary = salary;
     }
 
     public double getBaseSalary() {
@@ -29,7 +27,7 @@ public class Emplyee {
     }
 
     public double getSalary() {
-        return salary;
+        return baseSalary;
     }
 
 }
