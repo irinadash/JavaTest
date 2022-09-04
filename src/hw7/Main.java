@@ -10,5 +10,16 @@ public class Main {
         Manager manager3 = new Manager(5000, "Rob", 80);
         Manager manager4 = new Manager(10000, "Carol", 80);
         System.out.println(manager.getSalary());
+
+        int boxOfCandies = 4;
+        int weightForOneBoxCandies = 9;
+        int boxOfCookies = 3;
+        int weightForOneBoxCookies = 8;
+
+        int weightForAllBoxes = boxOfCandies * weightForOneBoxCandies
+                + boxOfCookies * weightForOneBoxCookies;
+        System.out.println(weightForAllBoxes + "кг всего конфет и печения привезли на базу.");
     }
+
+
 }
