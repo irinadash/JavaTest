@@ -1,12 +1,16 @@
+import java.util.Scanner;
+
 public class Sep {
     public static void main(String[] args) {
-        for(int i = 0; i<= 5; i= i + 1){
-            System.out.print(i + " | " + " ");
-            for(int j = 0; j <= 5; j= j + 1){
-                System.out.print(j + " ");
-            }
-            System.out.println('\n');
-        };
 
+        System.out.println("Add integer:");
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            sum = sum + i;
+            System.out.println(sum);
+        }
     }
 }
